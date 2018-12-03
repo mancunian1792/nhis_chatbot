@@ -1,0 +1,25 @@
+{
+  "name": "nhis-slack-botkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createEntity": "node ./scripts/create-dialogflow-entities.js"
+  },
+  "author": "Harish Ramani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "botkit": "^0.6.7",
+    "dialogflow": "^0.5.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "loadash": "^1.0.0",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.3.0"
+  }
+}
